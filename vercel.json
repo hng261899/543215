@@ -1,0 +1,11 @@
+{
+  "rewrites": [
+    { "source": "/portal", "destination": "/index.html" },
+    { "source": "/apply", "destination": "/index.html" },
+    { "source": "/applications", "destination": "/index.html" },
+    { "source": "/results", "destination": "/index.html" },
+    { "source": "/support", "destination": "/index.html" },
+    { "source": "/reimbursement", "destination": "/index.html" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
